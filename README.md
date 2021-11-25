@@ -16,8 +16,8 @@ This project uses a Convolutional Neural Network (CNN) to classify images in the
 *Trainable Parameters: 122,570*
 - Convolutional Layer 
 - Max Pooling
-- Convolutional Layer (2)
-- Max Pooling (2)
+- Convolutional Layer (x 2)
+- Max Pooling (x 2)
 - Flatten Layer 
 - Dense Layer
-- Dense Layer (2)
+- Dense Layer (x 2)
