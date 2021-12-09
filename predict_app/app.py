@@ -3,7 +3,6 @@ import tensorflow as tf
 from PIL import Image
 import numpy as np
 
-
 # Load model from trained session and set up classes
 @st.cache
 def fetch_model():
