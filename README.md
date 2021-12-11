@@ -6,6 +6,7 @@ This project uses a Convolutional Neural Network (CNN) to classify images in the
 - Tensorflow (Keras)
 - Numpy
 - PIL Image
+- Matplotlib
 
 # Data
 - 32 x 32 (RGB)
