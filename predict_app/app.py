@@ -3,7 +3,7 @@ import tensorflow as tf
 from PIL import Image
 import numpy as np
 
-# Load model from trained session and set up classes
+# Load the model from the trained session and set up classes/categories
 @st.cache
 def fetch_model():
     return tf.keras.models.load_model('models/cifar_cnn1.h5')
