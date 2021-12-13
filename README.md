@@ -7,6 +7,7 @@ This project uses a Convolutional Neural Network (CNN) to classify images in the
 - Numpy
 - PIL Image
 - Matplotlib
+- Streamlit
 
 # Data
 - 32 x 32 (RGB)
