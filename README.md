@@ -11,6 +11,8 @@ This project uses a Convolutional Neural Network (CNN) to classify images in the
 
 # Data
 - 32 x 32 (RGB)
+- Classes: Airplane, Car, Bird, Cat, Deer,
+               Dog, Frog, Horse, Ship, and Truck
 - 50,000 Training Images
 - 10,000 Testing Images
 
