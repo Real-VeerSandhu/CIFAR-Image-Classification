@@ -1,5 +1,5 @@
 # Overview
-This project uses a Convolutional Neural Network (CNN) to classify images in the [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) dataset put together by the University of Toronto (Alex Krizhevsky, Vinod Nair, and Geoffrey Hinton).  
+This project uses a Convolutional Neural Network (CNN) to classify images in the [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) dataset.
 
 **Technologies** 
 - Python
