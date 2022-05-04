@@ -13,7 +13,7 @@ loaded_model = fetch_model()
 class_names = ['airplane', 'car', 'bird', 'cat', 'deer',
                'dog', 'frog', 'horse', 'ship', 'truck']
 
-# Define a function to process an image and output a category in class_names
+# Define function to process an image and output a category in class_names
 def pred_img(x):
     img1 = Image.open(x).convert(mode="RGB")
     img1 = img1.resize((32,32))
@@ -39,6 +39,8 @@ def app():
         st.write('Make a Prediction')
         if st.button('Run Model') and raw_image:
             st.write(f'`Prediction: ` {pred_img(raw_image)}')
+    
+    st.write('Output parameters per class:', pred_img(raw_image))
 
 if __name__ =='__main__':
     app()
