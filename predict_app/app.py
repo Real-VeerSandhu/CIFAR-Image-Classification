@@ -42,5 +42,7 @@ def app():
     
     st.write('Output parameters per class:', pred_img(raw_image))
 
+    
+
 if __name__ =='__main__':
     app()
