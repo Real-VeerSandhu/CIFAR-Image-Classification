@@ -5,3 +5,5 @@ def fetch_model():
 
 def check_gpu():
     tf.test.is_gpu_available(cuda_only=False, min_cuda_compute_capability=None) 
+
+    
